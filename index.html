@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>JSON Admin</title>
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css">
+		<link rel="stylesheet" href='css/fa/font-awesome.min.css'>
+		<link rel="stylesheet" href='css/style/style.css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="preloader">
+			<div class="preload-img"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col xs-12">
+					<h1>JSON Admin</h1>
+					<h2>Gerencie e salve seus JSON's</h2>
+					<hr>
+				</div>
+				<div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+					<div class="col-lg-12">
+						<div id="form_json"></div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+					<div class="col-lg-12">
+						<h3>Saída</h3>
+						<div class="form-group">
+							<textarea class="form-control json-output"></textarea>
+						</div>
+						<button id="form_send" class="btn btn-primary btn-menu">Enviar</button>
+						<button id="form_send" class="btn btn-primary btn-menu">Fazer Backup</button>
+						<button id="form_send" class="btn btn-primary btn-menu">Restaurar Backup</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/libs/jquery/jquery.min.js"></script>
+		<script src="js/libs/bootstrap/bootstrap.min.js"></script>
+		<script src="js/libs/json-editor/json-editor.min.js"></script>
+		<script src="js/oracle/oracle.js"></script>
+	</body>
+</html>

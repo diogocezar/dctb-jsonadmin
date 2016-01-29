@@ -1,0 +1,24 @@
+{
+    "name": "Diogo Cezar Teixeira Batista",
+    "age": 30,
+    "gender": "Masculino",
+    "soccer": "Palmeiras",
+    "pets": [
+        {
+            "type": "Cachorro",
+            "name": "Bolinha"
+        },
+        {
+            "type": "Cachorro",
+            "name": "Perninha"
+        },
+        {
+            "type": "Cachorro",
+            "name": "Pink"
+        },
+        {
+            "type": "Cachorro",
+            "name": "Caku"
+        }
+    ]
+}

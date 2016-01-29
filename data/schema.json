@@ -1,0 +1,76 @@
+{
+	"title"	: "Pessoa",
+	"type"	: "object",
+	"id"	: "person",
+	"properties": {
+		"name" :
+		{
+			"title"			: "Nome",
+			"type"			: "string",
+			"description"	: "Digite o seu nome",
+			"minLength"		: 4,
+			"maxLength"		: 255
+		},
+		"age" :
+		{
+			"title"       	: "Idade",
+			"type"			: "integer",
+			"description"	: "Digite a sua idade",
+			"minimum"		: 18,
+			"maximum"		: 99
+		},
+		"gender" :
+		{
+			"title"       	: "Sexo",
+			"type"			: "string",
+			"description"	: "Escolha o gênero",
+			"enum" :
+			[
+				"Masculino",
+				"Feminino"
+			]
+		},
+		"soccer" :
+		{
+			"title"       	: "Time de Futebol",
+			"type"			: "string",
+			"description"	: "Escolha o time",
+			"enum" :
+			[
+				"São Paulo",
+				"Palmeiras",
+				"Flamengo"
+			]
+		},
+		"pets": {
+			"type"		: "array",
+			"format"	: "table",
+			"title"		: "Animais de Estimação",
+			"items":
+			{
+				"title"      : "Animal",
+				"type"		 : "object",
+				"properties" :
+				{
+					"type":
+					{
+						"title"	: "Tipo",
+						"type"	: "string",
+						"enum"	:
+						[
+							"Gato",
+							"Cachorro",
+							"Pássado",
+							"Outro"
+						]
+					},
+					"name":
+					{
+						"title"	: "Nome",
+						"type"	: "string"
+					}
+				}
+			}
+		}
+	}
+}

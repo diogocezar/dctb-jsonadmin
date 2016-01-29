@@ -1,0 +1,43 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.well{
+	padding-bottom: 9px!important;
+}
+
+.json-output{
+    width: 100%;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+.btn-menu{
+	width: 100%!important;
+	margin-bottom: 10px;
+}
+
+/* Preloader */
+
+#preloader  {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	z-index: 2147483647;
+	height: 100%;
+}
+
+.preload-img{
+	background-image: url("../../images/preload.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 352px;
+	width: 341px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin: -176px 0 0 -170px;
+}
